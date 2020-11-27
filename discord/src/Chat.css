@@ -40,6 +40,16 @@
     padding: 5px;
 }
 
+.chat_inputIcons>.MuiSvgIcon-root {
+    cursor: pointer;
+    color: white;
+}
+
+.Addd:hover {
+    cursor: pointer;
+    color: white;
+}
+
 .chat_messages {
     flex: 1;
     overflow: scroll;
