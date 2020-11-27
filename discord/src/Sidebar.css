@@ -91,3 +91,12 @@
 .sidebar_profileIcons>.MuiSvgIcon-root {
     padding: 10px;
 }
+.sidebar_profileIcons>.MuiSvgIcon-root:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.sidebar_voiceIcons>.MuiSvgIcon-root:hover {
+    color: white;
+    cursor: pointer;
+}
