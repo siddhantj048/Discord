@@ -20,7 +20,7 @@ function Chat() {
 
     useEffect(() => {
         if(channelId) {
-            db.collection('channels').doc(channelId).collection('messages').orderBy('timestamp','desc').onSnapshot(snapshot => (
+            db.collection('channels').doc(channelId).collection('messages').orderBy('timestamp','asc').onSnapshot(snapshot => (
           setMessages(snapshot.docs.map((doc) => doc.data()))  
         ));
         } 
