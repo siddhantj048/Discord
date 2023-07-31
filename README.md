@@ -1,7 +1,5 @@
 # Discord
-This is my first react app ... a discord clone
-
-A discord rip off 
-
+A rect app that uses Firebase and ReactJs with redux to make an application similar to Discord in functionality
+Link below, Enjoy!
 
 Link : discapp.netlify.app
